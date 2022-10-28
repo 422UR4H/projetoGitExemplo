@@ -27,4 +27,5 @@ adicionando novos commits (versões do código)
 git status - para verificar se há alguma atualização a ser feita
 git add . - para subir as versões de código atualizadas
 git status - para verificar se as atualizações foram upadas
-git commit -m "finalização do arquivo caderno.txt"
+git commit -m "finalizacao do arquivo caderno.txt"
+git push
