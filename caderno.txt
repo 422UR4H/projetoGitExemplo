@@ -1,6 +1,30 @@
 git status - comando para verificar modificações no repositório
 git add "nomeArquivo.extensao" - para adicionar o arquivo ao controle de versão
 git add . - comando para adicionar todos os arquivos do repositório ao controle de versão
+* depois de adicionados, os arquivos estão prontos para serem enviados ao github
+* para isso, deveremos criar uma versão
+git commit -m "mensagem" 
+* mensagem é a identificação do que foi feito naquele commit
+* mensagem é o nome da brench para onde estamos enviando essas alterações
+* a versão inicial geralmente é identificada como "commit inicial"
+* se não tiver configurado o email e nome associado, o git pedirá
+git config --global user.email "you@example.com"
+git config --global "Your Name"
+* para subir os arquivos para o github precisamos criar uma URL...
 
+* no site do git, canto superior direito: (+) -> novo repositório
+* adicionar o nome, selecionar a privacidade, adicionar um README
+* agora basta clicar em criar repositorio
+git remote add origin https:\\link.do.repositorio.criado.com
+* agora precisamos definir uma brench para enviar o código
+* inicialmente nós enviamos para a master
+git push --set-upstream origin master - para enviar à brunch master
 
-commits são versões do cógigo
+* ...agora, para enviar, de fato, o código
+git push - usado para subir os arquivos para o github
+
+adicionando novos commits (versões do código)
+git status - para verificar se há alguma atualização a ser feita
+git add . - para subir as versões de código atualizadas
+git status - para verificar se as atualizações foram upadas
+git commit -m "finalização do arquivo caderno.txt"
