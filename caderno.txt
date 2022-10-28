@@ -1,0 +1,6 @@
+git status - comando para verificar modificações no repositório
+git add "nomeArquivo.extensao" - para adicionar o arquivo ao controle de versão
+git add . - comando para adicionar todos os arquivos do repositório ao controle de versão
+
+
+commits são versões do cógigo
