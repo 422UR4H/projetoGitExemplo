@@ -1,0 +1,8 @@
+obs.: quando der git push, todos os commits anteriores vão subir,
+não somente o último.
+
+COMANDOS
+git reflog - mostra o histórico de atualizações
+* para voltar versões de código (ou navegar entre elas), precisamos
+do id (7 dígitos em amarelo) obtido a partir do reflog
+git reset --hard id7GGts
