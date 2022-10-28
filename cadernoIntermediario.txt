@@ -1,0 +1,30 @@
+obs.: quando der git push, todos os commits anteriores vão subir,
+não somente o último.
+
+COMANDOS
+git reflog - mostra o histórico de atualizações
+* para voltar versões de código (ou navegar entre elas), precisamos
+do id (7 dígitos em amarelo) obtido a partir do reflog
+git reset --hard id7GGts
+
+BRANCH
+cada branch´é como um caminho que seguimos ao desenvolver um código;
+quando trabalhamos com o cliente, ou de maneira mais profissional,
+surge a necessidade de ter um código estável, e geralmente ele é
+armazenado na branch master. mas o desenvolvimento não pode parar e
+nesse caso, o procedimento é salvo em uma branch paralela, e esses
+códigos só são passados para a branch master quando ele já foi testado
+e é garantido certa estabilidade. e por aí vai... esse processo de
+trazer o bloco de códigos de uma branch paralela à mestre é chamado
+de merge.
+
+Exemplo prático de como se ter uma branch estável enquanto se trabalha
+em uma paralela, e de como fazer o merge:
+COMANDOS
+git branch - mostra as branchs disponíveis para trabalho
+git branch staging - cria uma branch chamada staging
+* staging é o nome comumente dado à branch do processo paralelo
+* à branch que recebe atualizações ainda não testadas, em produção
+* a branch verde marcada com um asterisco é usada atualmente
+git checkout staging - muda o versionamento para a branch staging
+

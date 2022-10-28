@@ -5,7 +5,7 @@ git add . - comando para adicionar todos os arquivos do repositório ao controle
 * para isso, deveremos criar uma versão
 git commit -m "mensagem" 
 * mensagem é a identificação do que foi feito naquele commit
-* mensagem é o nome da brench para onde estamos enviando essas alterações
+* mensagem é o nome da branch para onde estamos enviando essas alterações
 * a versão inicial geralmente é identificada como "commit inicial"
 * se não tiver configurado o email e nome associado, o git pedirá
 git config --global user.email "you@example.com"
@@ -16,7 +16,7 @@ git config --global "Your Name"
 * adicionar o nome, selecionar a privacidade, adicionar um README
 * agora basta clicar em criar repositorio
 git remote add origin https:\\link.do.repositorio.criado.com
-* agora precisamos definir uma brench para enviar o código
+* agora precisamos definir uma branch para enviar o código
 * inicialmente nós enviamos para a master
 git push --set-upstream origin master - para enviar à brunch master
 
