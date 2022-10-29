@@ -27,4 +27,9 @@ git branch staging - cria uma branch chamada staging
 * à branch que recebe atualizações ainda não testadas, em produção
 * a branch verde marcada com um asterisco é usada atualmente
 git checkout staging - muda o versionamento para a branch staging
+* Merge: 
+* para dar merge para a branch master, devemos dar checkout na master
+git pull - traz as informações da branch atual pro computador
+git merge staging - copia o versionamento da staging para a atual
+* deve dar git push para finalizar
 
